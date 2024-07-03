@@ -1,0 +1,76 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.heading {
+  margin: 20px 0;
+}
+
+/* .text-generator-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+} */
+
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input-container input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.message-container {
+  margin-bottom: 20px;
+}
+
+.message-container .user-message {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.message-container .bot-message {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
